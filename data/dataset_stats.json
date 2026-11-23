@@ -1,0 +1,50 @@
+{
+  "generated_at_utc": "2026-11-23T20:46:25Z",
+  "window_days": 180,
+  "raw_rows_fetched": {
+    "chicago": 1200,
+    "austin": 1200,
+    "seattle": 1200
+  },
+  "records_after_dedupe": 3596,
+  "duplicates_removed": 4,
+  "by_city": {
+    "Chicago": 1196,
+    "Austin": 1200,
+    "Seattle": 1200
+  },
+  "by_trade": {
+    "electrical": 723,
+    "roofing": 263,
+    "other": 272,
+    "demolition": 180,
+    "renovation": 1038,
+    "new_construction": 257,
+    "hvac": 324,
+    "solar": 105,
+    "signage": 47,
+    "plumbing": 347,
+    "elevator": 40
+  },
+  "field_completeness_pct": {
+    "id": 100.0,
+    "city": 100.0,
+    "state": 100.0,
+    "permit_number": 100.0,
+    "status": 96.7,
+    "permit_type_raw": 100.0,
+    "trade": 100.0,
+    "applied_date": 98.1,
+    "issued_date": 100.0,
+    "address": 100.0,
+    "zip": 64.0,
+    "description": 100.0,
+    "estimated_cost_usd": 64.5,
+    "contractor_business": 0.0,
+    "latitude": 87.2,
+    "longitude": 87.2,
+    "source": 100.0
+  },
+  "issued_date_min": "2026-09-09",
+  "issued_date_max": "2026-11-22"
+}
